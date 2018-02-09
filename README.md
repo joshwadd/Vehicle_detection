@@ -32,7 +32,7 @@ The histogram of oriented gradients technique is a popular feature descriptor th
 Experiments were performed to find the parameters for the HOG feature extraction technique that maximised the classification accuracy for a common classifier. The following parameters were found to give the best performance.
 
 
-10 **orientations** : number of orientation bins that the gradient information will be spilt up into the histrogram
+10 **orientations** : number of orientation bins that the gradient information will be spilt up into the histogram
 
 8 **pixels_per_cell** : Cell size over which each gradient histogram is computed
 
@@ -49,5 +49,5 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTU0MTAxNF19
+eyJoaXN0b3J5IjpbLTk3NTk3NjQyNl19
 -->
