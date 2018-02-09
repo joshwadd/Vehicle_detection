@@ -24,7 +24,7 @@ Deciding on the best features to extract from the image for robust classificatio
 
 ### Colour Space Exploration
 
-The image data is orginally represented in 
+The image data is orginally represented in RGB 
 
 ### Histograms of Orientated Gradients (HOG)
 
@@ -37,5 +37,5 @@ The histogram of oriented gradients technique is a popular feature descriptor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTY3NzcxXX0=
+eyJoaXN0b3J5IjpbMTk4NzcyNjgzMF19
 -->
