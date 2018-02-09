@@ -72,9 +72,12 @@ def colour_hist(self, img, nbins=32):
         
         hist_features = np.concatenate((channel0_hist[0], channel1_hist[0], channel2_hist[0]))
         
-        return hist_features
-
+        return hist_feature
 ```
+
+## Training a Linear SVM
+
+
 
 
 
@@ -83,5 +86,5 @@ def colour_hist(self, img, nbins=32):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzc3MjEwMF19
+eyJoaXN0b3J5IjpbLTEzNTc3MzM3MTldfQ==
 -->
