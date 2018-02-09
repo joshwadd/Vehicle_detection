@@ -31,7 +31,7 @@ The histogram of oriented gradients technique is a popular feature descriptor th
 
 Experiments were performed to find the parameters for the HOG feature extraction technique that maximised the classification accuracy for a common classifier. The following parameters were found to give the best performance.
 
-**pixels_per_cell** : Cell size over which each gradient histog
+**pixels_per_cell** : Cell size over which each gradient histogram
 
 
 
@@ -44,5 +44,5 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTY0NDE4M119
+eyJoaXN0b3J5IjpbNTQ3MzM5ODVdfQ==
 -->
