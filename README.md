@@ -27,7 +27,7 @@ The image data is originally represented in RGB colour space. A series of colour
 
 ### Histograms of Orientated Gradients (HOG)
 
-The histogram of oriented gradients technique is a popular feature descriptor that uses the gradient information of the pixels to provide some notion of the shape of the object within the image. The **scikit-image** package contains an implementation of 
+The histogram of oriented gradients technique is a popular feature descriptor that uses the gradient information of the pixels to provide some notion of the shape of the object within the image. The **scikit-image** package contains an implementation of the HOG
 
 
 
@@ -36,5 +36,5 @@ The histogram of oriented gradients technique is a popular feature descriptor th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzA0Mjc0OF19
+eyJoaXN0b3J5IjpbLTIzNjczMzExN119
 -->
