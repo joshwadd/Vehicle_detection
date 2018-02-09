@@ -12,10 +12,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 
 ## Data Set
 
-The key component to the o
+The key component to the object 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTM0NTA2M119
+eyJoaXN0b3J5IjpbLTI3NzE2MjczMV19
 -->
