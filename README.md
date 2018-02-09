@@ -49,10 +49,14 @@ Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog t
 
 ### Spatial Information
 
-Spatial information of the image is added to the feature space by taking the original image, resizing it to a smaller resolution (removing the higher frequency information) and the unravelling to a single vector before adding to the feature space.
+Spatial information of the image is added to the feature space by taking the original image, resizing it to a smaller resolution (removing the higher frequency information) and the unravelling to a single vector before adding to the feature space. This procedure is performed on each colour channel.
 
 ``` python
-
+def bin_spatial(self, img, size=(32,32)):
+        colour1 = cv2.resize(img[:,:,0], size).ravel()
+        colour2 = cv2.resize(img[:,:,1], size).ravel()
+        colour3 = cv2.resize(img[:,:,2], size).ravel()
+        return np.hstack((colour1, colour2, colour3))
 ```
 
 ### Colour Histogram
@@ -64,5 +68,5 @@ Spatial information of the image is added to the feature space by taking the ori
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMzIyNDk5XX0=
+eyJoaXN0b3J5IjpbNzUwMzE1Nzk4XX0=
 -->
