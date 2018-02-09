@@ -49,7 +49,7 @@ Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog t
 
 ### Spatial Information
 
-Spatial information of the image is added to the
+Spatial information of the image is added to the 
 
 ### Colour Histogram
 
@@ -60,5 +60,5 @@ Spatial information of the image is added to the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyNzgxMjk1XX0=
+eyJoaXN0b3J5IjpbLTE3MzM3MzYzNDVdfQ==
 -->
