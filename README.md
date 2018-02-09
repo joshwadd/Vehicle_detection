@@ -1,6 +1,6 @@
 # Classic Vehicle Detection
 
-## Project overvi
+## Project 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ4NjQ2MzFdfQ==
+eyJoaXN0b3J5IjpbMTgyNTY2MjAwMF19
 -->
