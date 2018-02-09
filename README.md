@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds 
+This project builds a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDI1MTU4NV19
+eyJoaXN0b3J5IjpbOTEwNjAxODU4XX0=
 -->
