@@ -38,7 +38,8 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 2 **cells_per_block** : local area over which the histogram counts in a given cell will be normalised
 
-The result of applying the HOG with the above parameters to a 
+The result of applying the HOG with the above parameters to a singled channelled gray scaled image are shown below.
+
 
 
 
@@ -50,5 +51,5 @@ The result of applying the HOG with the above parameters to a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg2NTg5OTJdfQ==
+eyJoaXN0b3J5IjpbMTc3NTQxMzAwOF19
 -->
