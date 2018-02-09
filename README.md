@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a vehicle de
+This project builds a vehicle detection 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTAxODk2M119
+eyJoaXN0b3J5IjpbLTUxMDgxODI1M119
 -->
