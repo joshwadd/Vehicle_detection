@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a vehicle detection pipeline using
+This project builds a vehicle detection pipeline using class
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3MTczMTY1XX0=
+eyJoaXN0b3J5IjpbMTk4ODczMjQzN119
 -->
