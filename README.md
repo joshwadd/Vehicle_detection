@@ -61,6 +61,8 @@ def bin_spatial(self, img, size=(32,32)):
 
 ### Colour Histogram
 
+Colour information 
+
 
 
 
@@ -68,5 +70,5 @@ def bin_spatial(self, img, size=(32,32)):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzQzNTQ5Ml19
+eyJoaXN0b3J5IjpbMTQ3MTUzMjQ2NF19
 -->
