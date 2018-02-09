@@ -12,10 +12,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 
 ## Data Set
 
-The key component to the object detection pipeline is a robust image classifier, capable of detecting if a given image contains a vehicle or not. To do this I train a binary classifer on a data set 
+The key component to the object detection pipeline is a robust image classifier, capable of detecting if a given image contains a vehicle or not. To do this I train a binary classifier on a data set made up of 17760 rgb images
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE2Nzg2NjldfQ==
+eyJoaXN0b3J5IjpbMTM0MDcyMjc2MV19
 -->
