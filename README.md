@@ -33,7 +33,7 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 8 **pixels_per_cell** : Cell size over which each gradient histogram is computed
 
-2 **cells_per_block** : local area over which the hist
+2 **cells_per_block** : local area over which the histogram
 
 
 
@@ -46,5 +46,5 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzAzNjA4OV19
+eyJoaXN0b3J5IjpbMjUxNzM4NDczXX0=
 -->
