@@ -14,10 +14,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 
 The key component to the object detection pipeline is a robust image classifier, capable of detecting if a given image contains a vehicle or not. To do this I train a binary classifier on a data set made up of 17760 rgb images 64x64 pixels in size. In this dataset 8792 are images that contain a vehicle and 8968 are images that contain non-vehicle images taken from a front facing camera on a road vehicle.
 
-
+![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/data_set.jpg?raw=true)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMDQxNTRdfQ==
+eyJoaXN0b3J5IjpbLTExOTc4OTk3ODBdfQ==
 -->
