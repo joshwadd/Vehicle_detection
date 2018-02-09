@@ -12,10 +12,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 
 ## Data Set
 
-The key component to the object detection pipeline is a 
+The key component to the object detection pipeline is a robust image c
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNzU0MjQzXX0=
+eyJoaXN0b3J5IjpbLTM1NjgyMTcwOF19
 -->
