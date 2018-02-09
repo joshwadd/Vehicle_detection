@@ -49,6 +49,8 @@ Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog t
 
 ### Spatial Information
 
+Spatial information for th
+
 ### Colour Histogram
 
 
@@ -58,5 +60,5 @@ Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzYzNjY4MF19
+eyJoaXN0b3J5IjpbLTY0Nzc4NzczNV19
 -->
