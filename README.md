@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a vehic
+This project builds a vehicle de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODEyMDA2M119
+eyJoaXN0b3J5IjpbLTk4NTAxODk2M119
 -->
