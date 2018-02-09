@@ -7,9 +7,9 @@ This project builds a vehicle detection pipeline using classic techniques from c
 | File                                | Description                                                                        |
 | ----------------------------------- | ---------------------------------------------------------------------------------- |
 | `Code/feature_extractor.py`      | `CameraCalibration` class used to take an input image and extract the features from a given window region in the image. |
-| `Code/vehicle_detection.py`     | `VehicleDetection` class used to ta. |
+| `Code/vehicle_detection.py`     | `VehicleDetection` class used to take. |
 | `Code/perspective.py`   | `PerspectiveTransformation` class to transform the perspective of the front facing camera image to a overhead lane view. |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODAxNzY0MV19
+eyJoaXN0b3J5IjpbLTIwODQ1OTc3M119
 -->
