@@ -45,11 +45,11 @@ The result of applying the HOG with the above parameters to a singled channelled
 ![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/hog_trans.png?raw=true)
 
 
-Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog transform is used on each channel of the colour image resulting in a tensor of **3x7x7x2x2x10**. This tensor is the unravelled into a single vector of size **5880** for the HOG feature vector.
+Such a transform results in a returned tensor of size **7x7x2x2x10**. This hog transform is used on each channel of the colour image resulting in a tensor of **3x7x7x2x2x10**. This tensor is the unravelled into a single 1D vector of size **5880** for the HOG feature vector.
 
 ### Spatial Information
 
-Spatial information of the image is added to the feature space by taking the original image, resizing it to a smaller resolution (removing the higher frequency information) and the unravelling to a single vector before adding to the feature space. This procedure is performed on each colour channel.
+Spatial information of the image is added to the feature space by taking the original image, resizing it to a smaller resolution (removing the higher frequency information) and the unravelling to a single 1D vector before adding to the feature space. This procedure is performed on each colour channel.
 
 ``` python
 def bin_spatial(self, img, size=(32,32)):
@@ -68,5 +68,5 @@ def bin_spatial(self, img, size=(32,32)):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMzE1Nzk4XX0=
+eyJoaXN0b3J5IjpbMTA0MzQzNTQ5Ml19
 -->
