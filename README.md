@@ -12,10 +12,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 
 ## Data Set
 
-The 
+The kety
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTIxMzYyNl19
+eyJoaXN0b3J5IjpbLTIwNTY2NjYzNjFdfQ==
 -->
