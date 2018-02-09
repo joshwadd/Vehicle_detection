@@ -20,11 +20,11 @@ The key component to the object detection pipeline is a robust image classifier,
 
 ## Feature Extraction
 
-Deciding th
+Deciding oe
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzI5MjQwOF19
+eyJoaXN0b3J5IjpbMTcxMzcyNjgyMl19
 -->
