@@ -40,6 +40,9 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 The result of applying the HOG with the above parameters to a singled channelled gray scaled image are shown below.
 
+![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/hog_orig.png?raw=true)
+
+![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/hog_trans.png?raw=true)
 
 
 
@@ -51,5 +54,5 @@ The result of applying the HOG with the above parameters to a singled channelled
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTQxMzAwOF19
+eyJoaXN0b3J5IjpbMzcwNjY5MDE1XX0=
 -->
