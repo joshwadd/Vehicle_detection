@@ -10,6 +10,10 @@ This project builds a vehicle detection pipeline using classic techniques from c
 | `Code/vehicle_detection.py`     | `VehicleDetection` class used to apply a SVM classifier across an image through windows of various sizes to detect the presence of all vehicles. |
 | `Code/vehicle_detection.ipynb`   | Ipython notebook used to train a linear SVM on a training data set of vehicle and non vehicle images|
 
+## Data Set
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4Nzc2NjE5XX0=
+eyJoaXN0b3J5IjpbLTE4OTU3MDI0NzFdfQ==
 -->
