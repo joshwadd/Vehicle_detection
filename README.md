@@ -38,7 +38,7 @@ Experiments were performed to find the parameters for the HOG feature extraction
 
 2 **cells_per_block** : local area over which the histogram counts in a given cell will be normalised
 
-The result of applying the HOG with the above
+The result of applying the HOG with the above paramete
 
 
 
@@ -50,5 +50,5 @@ The result of applying the HOG with the above
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTQ4ODE0Ml19
+eyJoaXN0b3J5IjpbLTE3MTgzNDY4MjddfQ==
 -->
