@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a vehicle detection 
+This project builds a vehicle detection pipeli
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDgxODI1M119
+eyJoaXN0b3J5IjpbLTExNDc1Njc0NDhdfQ==
 -->
