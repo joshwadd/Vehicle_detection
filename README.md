@@ -45,7 +45,7 @@ The result of applying the HOG with the above parameters to a singled channelled
 ![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/hog_trans.png?raw=true)
 
 
-
+Such a transform results in a returned tensor of size **7x7x2x2x10**
 
 
 
@@ -54,5 +54,5 @@ The result of applying the HOG with the above parameters to a singled channelled
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNjY5MDE1XX0=
+eyJoaXN0b3J5IjpbMjEwNTkxODgxMF19
 -->
