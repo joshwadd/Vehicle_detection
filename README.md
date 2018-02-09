@@ -8,8 +8,8 @@ This project builds a vehicle detection pipeline using classic techniques from c
 | ----------------------------------- | ---------------------------------------------------------------------------------- |
 | `Code/feature_extractor.py`      | `CameraCalibration` class used to take an input image and extract the features from a given window region in the image. |
 | `Code/vehicle_detection.py`     | `VehicleDetection` class used to apply a SVM classifier across an image through windows of various sizes to detect the presence of all vehicles. |
-| `Code/vehicle_detection.ipynb`   | Ipython notebook used to train a linear SVM on a training data set of vehicle |
+| `Code/vehicle_detection.ipynb`   | Ipython notebook used to train a linear SVM on a training data set of vehicle and non|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjk0N119
+eyJoaXN0b3J5IjpbLTEwNTAzNzQ4NTVdfQ==
 -->
