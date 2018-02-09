@@ -29,7 +29,7 @@ The image data is originally represented in RGB colour space. A series of colour
 
 The histogram of oriented gradients technique is a popular feature descriptor that uses the gradient information of the pixels to provide some notion of the shape of the object within the image. The [**scikit-image**](http://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html) package contains an implementation of the HOG technique.
 
-Experiements parameters for the HOG extraction were performed to find the set that maximised the classification accuracy
+Experiements wereparameters for the HOG extraction were performed to find the set that maximised the classification accuracy
 
 
 
@@ -38,5 +38,5 @@ Experiements parameters for the HOG extraction were performed to find the set th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDMxODUxXX0=
+eyJoaXN0b3J5IjpbMTY3Mzc4OTEwMF19
 -->
