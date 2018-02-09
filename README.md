@@ -61,7 +61,7 @@ def bin_spatial(self, img, size=(32,32)):
 
 ### Colour Histogram
 
-Colour information is added to the featur
+Colour information is added to the feature space 
 
 
 
@@ -70,5 +70,5 @@ Colour information is added to the featur
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg5Njc2NzddfQ==
+eyJoaXN0b3J5IjpbLTMwNzY0NjczOF19
 -->
