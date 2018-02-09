@@ -61,7 +61,20 @@ def bin_spatial(self, img, size=(32,32)):
 
 ### Colour Histogram
 
-Colour information is added to the feature space by taking histograms of the the each of the colour channels 
+Colour information is added to the feature space by taking histograms of the the each of the colour channels and forming these into a 1D vector.
+
+``` python
+def colour_hist(self, img, nbins=32):  #bins_range=(0,256)
+        #compute the histrogram of colour channels separatley
+        channel0_hist = np.histogram(img[:,:,0], bins=nbins, range=(0, 256))
+        channel1_hist = np.histogram(img[:,:,1], bins=nbins, range=(0, 256))
+        channel2_hist = np.histogram(img[:,:,2], bins=nbins, range=(0, 256))
+        
+        hist_features = np.concatenate((channel0_hist[0], channel1_hist[0], channel2_hist[0]))
+        
+        return hist_features
+
+```
 
 
 
@@ -70,5 +83,5 @@ Colour information is added to the feature space by taking histograms of the the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTk4NjcyXX0=
+eyJoaXN0b3J5IjpbLTI5ODg5ODk4OF19
 -->
