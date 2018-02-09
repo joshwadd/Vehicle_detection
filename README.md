@@ -20,11 +20,11 @@ The key component to the object detection pipeline is a robust image classifier,
 
 ## Feature Extraction
 
-Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted I decided upon 
+Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted I decided upon were made up of a combination of **HOG (Histogram of Oriented Gradients)**
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIwNTYwOTNdfQ==
+eyJoaXN0b3J5IjpbLTc5NzUzNzI5N119
 -->
