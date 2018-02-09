@@ -24,10 +24,14 @@ Deciding on the best features to extract from the image for robust classificatio
 
 ### Histograms of Orientated Gradients (HOG)
 
+The histogram of oriented gradients technique is a popular feature descriptor
+
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYyNzQ5NjhdfQ==
+eyJoaXN0b3J5IjpbLTg4ODgwOTYxOF19
 -->
