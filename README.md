@@ -22,9 +22,12 @@ The key component to the object detection pipeline is a robust image classifier,
 
 Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted I decided upon were made up of a combination of **HOG (Histogram of Oriented Gradients)**,  **spatial information** and **histograms of colour channels**.  All implementations for the feature extractions are found in the `FeatureExtraction` class. This class takes an input image on initialisation and extracts the desired features for any desired region of the image.
 
+### Histograms of Orientated Gradients (HOG)
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTkwMTUzOF19
+eyJoaXN0b3J5IjpbLTE2NDYyNzQ5NjhdfQ==
 -->
