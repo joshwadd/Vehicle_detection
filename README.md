@@ -29,7 +29,7 @@ extractor = FeatureExtraction(Image)
 x_pos = 0
 y_pos = 0
 region_size = 64
-feature_vector = extractor.get_features(x = 0, y = 0, region_siz)
+feature_vector = extractor.get_features(x = 0, y = 0, region_size )
 ```
 
 
@@ -103,5 +103,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTUxMDc0MF19
+eyJoaXN0b3J5IjpbMTU0Nzg0OTkyN119
 -->
