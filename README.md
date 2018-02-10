@@ -161,7 +161,7 @@ def add_heat(self, heatmap, windows, threshold = 15):
             heatmap[window[1]:window[3], window[0]:window[2]] += 1
         return heatmap
 ```
-The heat map can then be thresholded to a cer
+The heat map can then be thresholded to a de
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
@@ -170,5 +170,5 @@ The heat map can then be thresholded to a cer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTA3OTAwN119
+eyJoaXN0b3J5IjpbNjk0ODkzMzE2XX0=
 -->
