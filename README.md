@@ -80,7 +80,7 @@ def colour_hist(self, img, nbins=32):
 
 ## Sliding Window Search Image
 
-The pipeline described so far is capable of extracting features
+The pipeline described so far is capable of extracting features and then classifying 
 
 
 
@@ -93,5 +93,5 @@ The pipeline described so far is capable of extracting features
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzk2ODI0XX0=
+eyJoaXN0b3J5IjpbLTE4OTg4MzQ3ODhdfQ==
 -->
