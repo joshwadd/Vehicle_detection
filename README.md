@@ -22,11 +22,13 @@ The key component to the object detection pipeline is a robust image classifier,
 
 Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted comprised of a combination of  **HOG (Histogram of Oriented Gradients)**,  **spatial information** and **histograms of colour channels**.  The implementation for the feature extraction pipeline is found in the `FeatureExtraction` class. This class take an input image on initialisation and then extracts the required feature vector for classification from a specified region of the image. 
 
-The class implements the feature extraction in an efficient method by only computing the expensive hog features once upon initialisation. The class abstracts all implementation detail however and the features can be extracted from any given region with a simple function call.
+The class implements the feature extraction in an efficient method by only computing the expensive hog features once upon initialisation. The class abstracts all implementation detail however and the features can be extracted from any location and for any given region with a simple function call.
 
 ``` python
 extractor = FeatureExtraction(Image)
-
+x_pos = 0
+y_pos = 0
+region
 feature_vector = extractor.get_features()
 ```
 
@@ -101,5 +103,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NjIwMTczXX0=
+eyJoaXN0b3J5IjpbLTEyNjIwMDMzMTVdfQ==
 -->
