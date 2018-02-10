@@ -151,12 +151,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ## Improving classification robustness
 
-The pipeline above currently reports multiple detection at different scales with overlapping windows, and is very sensitive to false positives detection. To make the vehicle detection more robust to these problems I generate a heatmap of the intersecting classif
+The pipeline above currently reports multiple detection at different scales with overlapping windows, and is very sensitive to false positives detection. To make the vehicle detection more robust to these problems I generate a heatmap of the intersecting classfica
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDU4NjU4Nl19
+eyJoaXN0b3J5IjpbMTAxNDY1Nzc1MF19
 -->
