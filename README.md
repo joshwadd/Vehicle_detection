@@ -83,6 +83,8 @@ def colour_hist(self, img, nbins=32):
 
 ## Training a Linear SVM
 
+Using the feature extraction pipeline on the dataset above a binary classifcation 
+
 
 ## Sliding Window Search Image
 
@@ -201,5 +203,5 @@ Using classical feature extraction techniques as done in this project requires m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzU3MjcyOF19
+eyJoaXN0b3J5IjpbOTc5ODg1MzY0XX0=
 -->
