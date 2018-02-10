@@ -78,7 +78,7 @@ def colour_hist(self, img, nbins=32):
 ## Training a Linear SVM
 
 
-## Sliding Window 
+## Sliding Window Searc
 
 
 
@@ -89,5 +89,5 @@ def colour_hist(self, img, nbins=32):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQxNzU2OTFdfQ==
+eyJoaXN0b3J5IjpbLTIwOTQzNTM4OTNdfQ==
 -->
