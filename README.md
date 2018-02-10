@@ -182,7 +182,7 @@ The bounding rectangle of each of the heat signatures can be computed using the 
 
 ## Video Detection
 
-The vehicle detection pipeline can then be applied to video data. This allow
+The vehicle detection pipeline can then be applied to video data. This allows 
 
 
 
@@ -192,5 +192,5 @@ The vehicle detection pipeline can then be applied to video data. This allow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU3OTgxMzFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTM4MzA5NDRdfQ==
 -->
