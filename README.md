@@ -80,7 +80,7 @@ def colour_hist(self, img, nbins=32):
 
 ## Sliding Window Search Image
 
-The pipeline described so far is capable of extracting features from a **64x64** pixel region of an image, and then using a binary classifier on these features to detect is a vehicle is present in this region or not.
+The pipeline described so far is capable of extracting features from a **64x64** pixel region of an image, and then using a binary classifier on these features to detect if a vehicle is present in this region or not.
 
 
 
@@ -93,5 +93,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA5ODEzMzVdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc5MjMyNDJdfQ==
 -->
