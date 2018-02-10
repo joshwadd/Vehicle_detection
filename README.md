@@ -191,6 +191,8 @@ The vehicle detection pipeline can then be applied to video data. This allows in
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDkyNDc2MDZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTU2NTYzNDZdfQ==
 -->
