@@ -175,12 +175,12 @@ Applying the heatmap and then threshold to the image below leaves two distinct h
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
-The bounding rectangle of each of the heat signatures can be comput
+The bounding rectangle of each of the heat signatures can be computed using th
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjA2MDA3M119
+eyJoaXN0b3J5IjpbLTE2MTk4MTU4MDJdfQ==
 -->
