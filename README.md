@@ -78,7 +78,7 @@ def colour_hist(self, img, nbins=32):
 ## Training a Linear SVM
 
 
-## Slidin
+## Sliding Wi
 
 
 
@@ -89,5 +89,5 @@ def colour_hist(self, img, nbins=32):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzQ0MzYxMl19
+eyJoaXN0b3J5IjpbLTIzNzMyNDQ4N119
 -->
