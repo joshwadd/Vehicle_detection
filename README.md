@@ -195,11 +195,11 @@ The video below shows the vehicle tracking pipeline on video data
 
 The vehicle detection pipeline successfully identifies vehicles in the video stream with very few false positives arising. The bounding boxes around the cars are not very stable and in some cases separate around a single vehicle. This effect could be reduced by further tuning of the sliding window search locations and scales to increase robustness.
 
-Using classical feature extraction techniques as done in this project requires much tuning of parameters relating to the feature extraction and sliding window proecdures
+Using classical feature extraction techniques as done in this project requires much tuning of parameters relating to the feature extraction and sliding window proecdures.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNzI3MDldfQ==
+eyJoaXN0b3J5IjpbMTg5MTIyNTQ1N119
 -->
