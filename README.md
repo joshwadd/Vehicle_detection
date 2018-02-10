@@ -90,6 +90,7 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 Smaller scales are only required in the distance of the lane, and larger scales in the road closest to the vehicle. The chosen scales and the amount of overlap was chosen to maximise the number of correct classifications and minimise the number of false positives.
 
+The linear support vector machine classifier was trained on features extracted from a **64 x 64** pixel region. Searching windows regions at scales differing from this then will require resizing back to this size.
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_mid.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
@@ -148,14 +149,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ```
 
-
-The linear support vector machine classifier was trained on features extracted from a **64 x 64** pixel region. Searching windows regions at scales differing from this then will require resizing back to this size.
-
+##
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NzQ3Mjg2XX0=
+eyJoaXN0b3J5IjpbLTEwNTY2MDMwMDRdfQ==
 -->
