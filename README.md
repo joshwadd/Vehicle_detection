@@ -88,10 +88,9 @@ def colour_hist(self, img, nbins=32):
 
 The pipeline described so far is capable of extracting features from a **64x64** pixel region of an image, and then using a binary classifier on these features to detect if a vehicle is present in this region or not. To detect all vehicles in the larger image scene the classifier window is slid across the image at various regions and at various scales.
 
-![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true)
 
 
-
+<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Drawing" style="width: 200px;"/>
 
 
 
@@ -101,5 +100,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTAxODE1NV19
+eyJoaXN0b3J5IjpbMTc3ODA1MTMzOV19
 -->
