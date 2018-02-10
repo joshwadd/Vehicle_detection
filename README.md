@@ -163,9 +163,10 @@ def add_heat(self, heatmap, windows, threshold = 15):
 ```
 
 
+<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTEwNjg2OF19
+eyJoaXN0b3J5IjpbMTY2MDEzNDQ0MF19
 -->
