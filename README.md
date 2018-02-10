@@ -180,11 +180,15 @@ The bounding rectangle of each of the heat signatures can be computed using the 
 ![](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/detected.png?raw=true)
 
 
+## Video Detection
+
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk3MTI3NDNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODY0ODM5ODNdfQ==
 -->
