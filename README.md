@@ -161,7 +161,7 @@ def add_heat(self, heatmap, windows, threshold = 15):
             heatmap[window[1]:window[3], window[0]:window[2]] += 1
         return heatmap
 ```
-The heat map can then be thresholded to a desired tolerance. This has the desired effect of removing any unwanted false positive detection and leaves only regions that have been detected by many windows at many scales.
+The heat map can then be thresholded to a desired tolerance. This has the desired effect of removing any unwanted false positive windows  and leaves only regions that have been detected by many windows at many scales. These regions indicate a very likely presence of vehicles.
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
@@ -170,5 +170,5 @@ The heat map can then be thresholded to a desired tolerance. This has the desire
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzY5MDMxOF19
+eyJoaXN0b3J5IjpbMTMzOTUwNTc1M119
 -->
