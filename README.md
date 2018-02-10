@@ -149,12 +149,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ```
 
-##
+## Improving classification robustness and ,
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY2MDMwMDRdfQ==
+eyJoaXN0b3J5IjpbLTE0MDI5NjgwODZdfQ==
 -->
