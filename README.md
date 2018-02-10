@@ -193,11 +193,11 @@ The video below shows the vehicle tracking pipeline on video data
 
 ## Results
 
-The vehicle detection pipeline successfully identifies vehicles in the video stream with very few false positives arising. The bounding boxes around the cars are not very stable and in some cases separate. This could remov 
+The vehicle detection pipeline successfully identifies vehicles in the video stream with very few false positives arising. The bounding boxes around the cars are not very stable and in some cases separate. This could removed 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNjM3NDQxXX0=
+eyJoaXN0b3J5IjpbLTE1ODQyNzU4MDhdfQ==
 -->
