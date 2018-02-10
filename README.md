@@ -90,7 +90,7 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 
-<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Drawing" style="width: 100px;"/>
+<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Drawing" style="width: 50px;"/>
 
 
 
@@ -100,5 +100,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg4ODExOF19
+eyJoaXN0b3J5IjpbNjMxNzgxNTEwXX0=
 -->
