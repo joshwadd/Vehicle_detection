@@ -171,7 +171,7 @@ def apply_threshold(self, heatmap, threshold):
         return heatmap
 ```
 
-Applying the heatmap and then thresholding to the image below leaves two distinct heat signifture assoauted which each of the vehicles 
+Applying the heatmap and then thresholding to the image below leaves two distinct heat signifture assoauted which each of the vehicles in the iamge 
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
@@ -180,5 +180,5 @@ Applying the heatmap and then thresholding to the image below leaves two distinc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTM2NDM3N119
+eyJoaXN0b3J5IjpbMTUxNjIzOTIwNF19
 -->
