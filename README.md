@@ -80,6 +80,8 @@ def colour_hist(self, img, nbins=32):
 
 ## Sliding Window Search Image
 
+The pipeline described so far is capable
+
 
 
 
@@ -91,5 +93,5 @@ def colour_hist(self, img, nbins=32):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTg5MDQ4Ml19
+eyJoaXN0b3J5IjpbLTEyMTU3NDQ0MTldfQ==
 -->
