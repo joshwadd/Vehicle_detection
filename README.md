@@ -20,7 +20,7 @@ The key component to the object detection pipeline is a robust image classifier,
 
 ## Feature Extraction
 
-Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted comprised of a combination of  **HOG (Histogram of Oriented Gradients)**,  **spatial information** and **histograms of colour channels**.  The implementation for the feature extraction pipeline is found in the `FeatureExtraction` class. This class take an input image on initialisation and then extracts the required feature vector for classicfication a
+Deciding on the best features to extract from the image for robust classification was done with a combination of trail, error and intuition. The final set of features extracted comprised of a combination of  **HOG (Histogram of Oriented Gradients)**,  **spatial information** and **histograms of colour channels**.  The implementation for the feature extraction pipeline is found in the `FeatureExtraction` class. This class take an input image on initialisation and then extracts the required feature vector for classicfication from a
 
 
 The image data is originally represented in RGB colour space. A series of colour space transforms were explored to in order to find a space in which the pixels associated with vehicles lie clustered together separated from pixels associated with the background items in the image. This aids the classifier to find an effective decision boundary to separate the classes in this new space. For this purpose image data was first transformed into YCrCb space.
@@ -93,5 +93,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5NzUzMDM0XX0=
+eyJoaXN0b3J5IjpbMTY3NDE3NjMwNl19
 -->
