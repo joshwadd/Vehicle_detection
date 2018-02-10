@@ -151,12 +151,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ## Improving classification robustness
 
-The pipleine
+The pipl
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzQxNDM5MF19
+eyJoaXN0b3J5IjpbOTQyNjk5MjA1XX0=
 -->
