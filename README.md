@@ -26,12 +26,8 @@ The class implements the feature extraction in an efficient method by only compu
 
 ``` python
 extractor = FeatureExtraction(Image)
-x_pos = 0
-y_pos = 0
-region_size = 64
 feature_vector = extractor.get_features(x = 0, y = 0, region_size = 0)
 ```
-
 
 The image data is originally represented in RGB colour space. A series of colour space transforms were explored to in order to find a space in which the pixels associated with vehicles lie clustered together separated from pixels associated with the background items in the image. This aids the classifier to find an effective decision boundary to separate the classes in this new space. For this purpose image data was first transformed into YCrCb space.
 
@@ -103,5 +99,5 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTAyNzc0NzJdfQ==
+eyJoaXN0b3J5IjpbMzM2MDg5MzY2XX0=
 -->
