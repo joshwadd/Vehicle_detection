@@ -93,12 +93,12 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 
 
-<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Girl in a jacket" width="500" height="300">
+<img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5NDM1NzM2XX0=
+eyJoaXN0b3J5IjpbLTg5Mzg2NjgyNl19
 -->
