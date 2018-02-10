@@ -115,15 +115,11 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
             nxblocks = (imshape_scaled[1] // pix_per_cell) - cells_per_block + 1
             nyblocks = (imshape_scaled[0] // pix_per_cell) - cells_per_block + 1
             nfeat_per_block = orient*cells_per_block**2
-
-
             nblocks_per_window = (window_size // pix_per_cell) - cells_per_block + 1
             cells_per_step = 3 #this is used instead of the overlap
-
             nxsteps = (nxblocks - nblocks_per_window) // cells_per_step + 1
             nysteps = (nyblocks - nblocks_per_window) // cells_per_step + 1
-
-            
+         
             for xb in range(nxsteps):
                 for yb in range(nysteps):
 
@@ -132,7 +128,7 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
                     xleft = x_pos*pix_per_cell
                     ytop = y_pos*pix_per_cell
-
+					# Extract features and normalise
                     features = extraction.get_features(xleft, ytop).reshape(1,-1)
                     test_features = self.X_scaler.transform(features)
                     test_prediction = self.classifier.predict(test_features)
@@ -161,5 +157,5 @@ The linear support vector machine classifier was trained on features extracted f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzg2ODkyOV19
+eyJoaXN0b3J5IjpbLTE5NDczNjI4OTldfQ==
 -->
