@@ -193,11 +193,11 @@ The video below shows the vehicle tracking pipeline on video data
 
 ## Results
 
-The vehicle detection pipel
+The vehicle detection pipeline
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUxMDMwMDldfQ==
+eyJoaXN0b3J5IjpbLTkxMTIwMjI2N119
 -->
