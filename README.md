@@ -151,12 +151,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ## Improving classification robustness
 
-The pipeline above currently reports multiple detection at different scales with overlapping windows and is sensitive to false positives
+The pipeline above currently reports multiple detection at different scales with overlapping windows, and is very sensitive to false positives detection.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjcwMTU0NV19
+eyJoaXN0b3J5IjpbMTMyOTQ4NDI2MF19
 -->
