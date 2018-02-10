@@ -85,7 +85,7 @@ def colour_hist(self, img, nbins=32):
 
 Using the feature extraction pipeline on the data set above a binary classify was trained to detect vehicle and non-vehicle image . Due to the dimension of the feature space a linear support vector machine was chosen due to computational limitations. The training procedure for the SVM is shown in the `vehicle_detection.ipynb` notebook.
 
-Sklearn toolkit was used to train a lin
+Sklearn toolkit was used to train the linear SVM pre-processing the data by centering a
 
 
 ## Sliding Window Search Image
@@ -205,5 +205,5 @@ Using classical feature extraction techniques as done in this project requires m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTAwNzUzMl19
+eyJoaXN0b3J5IjpbLTE1NjcxNzkxMjNdfQ==
 -->
