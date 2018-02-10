@@ -193,11 +193,11 @@ The video below shows the vehicle tracking pipeline on video data
 
 ## Results
 
-The vehicle detection pipeline successfully identifies vehicles in the video stream with very few false
+The vehicle detection pipeline successfully identifies vehicles in the video stream with very few false postiv
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk3NzE4NzFdfQ==
+eyJoaXN0b3J5IjpbLTIwNjIxNjAyMDJdfQ==
 -->
