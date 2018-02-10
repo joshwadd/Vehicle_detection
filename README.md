@@ -184,6 +184,8 @@ The bounding rectangle of each of the heat signatures can be computed using the 
 
 The vehicle detection pipeline can then be applied to video data. This allows increase robustness to the detection pipeline by integrating the heat map and the thesholding of the heat map over a series of video frames. The implementation detail of this can be found in the `detect_vehicles()` method in the `VehicleDetection` class.
 
+The video below shows the vehicle tracking pipeline on video data 
+
 
 [![png](https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/video.png?raw=true)](https://youtu.be/z8k6Vp2df3g)
 
@@ -195,5 +197,5 @@ The vehicle detection pipeline can then be applied to video data. This allows in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI2NDI5MjBdfQ==
+eyJoaXN0b3J5IjpbNDMyMjI5NDA3XX0=
 -->
