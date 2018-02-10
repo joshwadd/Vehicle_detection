@@ -88,7 +88,7 @@ def colour_hist(self, img, nbins=32):
 
 The pipeline described so far is capable of extracting features from a **64x64** pixel region of an image, and then using a binary classifier on these features to detect if a vehicle is present in this region or not. To detect all vehicles in the larger image scene the classifier window is slid across the image at various regions and at various scales.
 
-Smaller scales are only required in the distance of the lane, and larger scales in the road closest to the vehicle.
+Smaller scales are only required in the distance of the lane, and larger scales in the road closest to the vehicle. The chosen scales and the amount of overlap was chosen to maximise the number of correct classifications and minimise the number of false positives.
 
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_smallest.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_mid.png?raw=true" alt="Girl in a jacket" width="400" height="220">
@@ -157,5 +157,5 @@ The linear support vector machine classifier was trained on features extracted f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTYxMzg4N119
+eyJoaXN0b3J5IjpbOTA0NzQ3Mjg2XX0=
 -->
