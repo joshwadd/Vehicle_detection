@@ -78,7 +78,9 @@ def colour_hist(self, img, nbins=32):
 ## Training a Linear SVM
 
 
-## Sliding Window Search 
+## Sliding Window Search Image
+
+
 
 
 
@@ -89,5 +91,5 @@ def colour_hist(self, img, nbins=32):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODAyMDgyOV19
+eyJoaXN0b3J5IjpbLTM4NTg5MDQ4Ml19
 -->
