@@ -94,8 +94,7 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_large.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_largest.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
-The linear support vector machine classifier Searching across a range of windows with differing scales
-
+The linear support vector machine classifier was trained on features extracted from a **64 x 64** pixel region. 
 
 
 
@@ -103,5 +102,5 @@ The linear support vector machine classifier Searching across a range of windows
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTQ3MjQ4OF19
+eyJoaXN0b3J5IjpbLTM3NzI2Mzc1MV19
 -->
