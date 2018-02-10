@@ -171,7 +171,7 @@ def apply_threshold(self, heatmap, threshold):
         return heatmap
 ```
 
-Applying the heatmap and then thresholding leaves a heat 
+Applying the heatmap and then thresholding leaves a heatmap ima
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/origin.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/heatmap.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
@@ -180,5 +180,5 @@ Applying the heatmap and then thresholding leaves a heat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Njg1NDU5Nl19
+eyJoaXN0b3J5IjpbLTEyOTQ5NjExN119
 -->
