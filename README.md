@@ -155,6 +155,14 @@ The pipeline above currently reports multiple detection at different scales with
 
 ``` python
 
+def add_heat(self, heatmap, windows, threshold = 15):
+        
+        for window in windows:
+            heatmap[window[1]:window[3], window[0]:window[2]] += 1
+            
+        
+        return self.apply_threshold(heatmap, min(threshold,len(self.previous_detections) ))
+
 ```
 
 
@@ -162,5 +170,5 @@ The pipeline above currently reports multiple detection at different scales with
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc0MDQ2MzFdfQ==
+eyJoaXN0b3J5IjpbLTUwNTQyMDQ1N119
 -->
