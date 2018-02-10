@@ -128,7 +128,7 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
                     xleft = x_pos*pix_per_cell
                     ytop = y_pos*pix_per_cell
-					# Extract features and normalise
+					# Extract features and normalise 
                     features = extraction.get_features(xleft, ytop).reshape(1,-1)
                     test_features = self.X_scaler.transform(features)
                     test_prediction = self.classifier.predict(test_features)
@@ -157,5 +157,5 @@ The linear support vector machine classifier was trained on features extracted f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDczNjI4OTldfQ==
+eyJoaXN0b3J5IjpbLTEwNjc1NjgzNjFdfQ==
 -->
