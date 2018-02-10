@@ -128,20 +128,18 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
                     xleft = x_pos*pix_per_cell
                     ytop = y_pos*pix_per_cell
-					# Extract features and preprocess for
+					# Extract features and preprocess for classification
                     features = extraction.get_features(xleft, ytop).reshape(1,-1)
                     test_features = self.X_scaler.transform(features)
                     test_prediction = self.classifier.predict(test_features)
 
                     if test_prediction == 1:
-
                         xbox_left = np.int(xleft*scale)
                         ytop_draw = np.int(ytop*scale)
                         win_draw = np.int(window_size*scale)
                         window = [[xbox_left, ytop_draw+y_start, xbox_left+win_draw, ytop_draw+win_draw+y_start]]
                         detections = np.append(detections , window, axis=0)
                         cv2.rectangle(original_image, (xbox_left + x_left, ytop_draw+y_start), (xbox_left+win_draw + x_left, ytop_draw+win_draw+y_start), (0,0,255),6)
-
 
             return original_image, detections
 
@@ -157,5 +155,5 @@ The linear support vector machine classifier was trained on features extracted f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIxNzM1NTRdfQ==
+eyJoaXN0b3J5IjpbMTk0MDczNzU4NF19
 -->
