@@ -94,7 +94,7 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_large.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_largest.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
-Searching across a range of windows with 
+Searching across a range of windows with differing
 
 
 
@@ -103,5 +103,5 @@ Searching across a range of windows with
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDgxMDY5OV19
+eyJoaXN0b3J5IjpbLTkzNTI0NjMzOV19
 -->
