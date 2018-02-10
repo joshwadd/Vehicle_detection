@@ -94,7 +94,63 @@ The pipeline described so far is capable of extracting features from a **64x64**
 
 <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_large.png?raw=true" alt="Girl in a jacket" width="400" height="220"> <img src="https://github.com/joshwadd/Vehicle_detection/blob/master/output_images/scale_largest.png?raw=true" alt="Girl in a jacket" width="400" height="220">
 
-The pipeline for performing a sliding windows search at various scales and locations in an image is implemented by the `VehicleDection` class in `vehicle_detection.py`.  The main bulk of the computation is performed by the 
+The pipeline for performing a sliding windows search at various scales and locations in an image is implemented by the `VehicleDection` class in `vehicle_detection.py`.  The main bulk of the computation is performed by the following method
+
+``` python
+def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,window_size):
+
+            detections = np.empty([0, 4], dtype=np.int)
+
+            #Restrict the image the search area
+            image = img[y_start:y_stop, x_left:x_right, :]
+            image = image.astype(np.float32)/255
+            
+            imshape =  image.shape
+            img_scaled = cv2.resize(image, (np.int(imshape[1]/scale), np.int(imshape[0]/scale)))
+
+            imshape_scaled = img_scaled.shape
+            extraction = FeatureExtraction(img_scaled)
+
+            # Define blocks and steps to transverse
+            nxblocks = (imshape_scaled[1] // pix_per_cell) - cells_per_block + 1
+            nyblocks = (imshape_scaled[0] // pix_per_cell) - cells_per_block + 1
+            nfeat_per_block = orient*cells_per_block**2
+
+
+            nblocks_per_window = (window_size // pix_per_cell) - cells_per_block + 1
+            cells_per_step = 3 #this is used instead of the overlap
+
+            nxsteps = (nxblocks - nblocks_per_window) // cells_per_step + 1
+            nysteps = (nyblocks - nblocks_per_window) // cells_per_step + 1
+
+            
+            for xb in range(nxsteps):
+                for yb in range(nysteps):
+
+                    y_pos = yb*cells_per_step
+                    x_pos = xb*cells_per_step
+
+                    xleft = x_pos*pix_per_cell
+                    ytop = y_pos*pix_per_cell
+
+                    features = extraction.get_features(xleft, ytop).reshape(1,-1)
+                    test_features = self.X_scaler.transform(features)
+                    test_prediction = self.classifier.predict(test_features)
+
+                    if test_prediction == 1:
+
+                        xbox_left = np.int(xleft*scale)
+                        ytop_draw = np.int(ytop*scale)
+                        win_draw = np.int(window_size*scale)
+                        window = [[xbox_left, ytop_draw+y_start, xbox_left+win_draw, ytop_draw+win_draw+y_start]]
+                        detections = np.append(detections , window, axis=0)
+                        cv2.rectangle(original_image, (xbox_left + x_left, ytop_draw+y_start), (xbox_left+win_draw + x_left, ytop_draw+win_draw+y_start), (0,0,255),6)
+
+
+            return original_image, detections
+
+
+```
 
 
 The linear support vector machine classifier was trained on features extracted from a **64 x 64** pixel region. Searching windows regions at scales differing from this then will require resizing back to this size.
@@ -105,5 +161,5 @@ The linear support vector machine classifier was trained on features extracted f
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgzNjc0ODBdfQ==
+eyJoaXN0b3J5IjpbLTUxMzg2ODkyOV19
 -->
