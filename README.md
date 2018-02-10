@@ -151,12 +151,12 @@ def search_windows_scale(self, img, scale, y_start, y_stop, x_left, x_right ,win
 
 ## Improving classification robustness
 
-The pipeline above
+The pipeline above currently reports multiple detections at different scales and
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAzNTAxODFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjMwNzg2MjBdfQ==
 -->
