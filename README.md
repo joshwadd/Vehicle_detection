@@ -80,8 +80,8 @@ def colour_hist(self, img, nbins=32):
 
 ## Sliding Window Search Image
 
-The pipeline described so far is capable of extracting features and then using a binary classifier on these features to 
-
+The pipeline described so far is capable of extracting features from a **64** and then using a binary classifier on these features to detect the presence of a v
+64x64
 
 
 
@@ -93,5 +93,5 @@ The pipeline described so far is capable of extracting features and then using a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MDMwODIxXX0=
+eyJoaXN0b3J5IjpbLTQ0OTk0MDI1M119
 -->
