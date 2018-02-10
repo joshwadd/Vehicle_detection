@@ -182,7 +182,7 @@ The bounding rectangle of each of the heat signatures can be computed using the 
 
 ## Video Detection
 
-The vehicle detection pipeline can then be applied to video data. This allows increase robustness to the detection pipeline by integrating the heat map and the thesholding of the heat map over a series of video frames.
+The vehicle detection pipeline can then be applied to video data. This allows increase robustness to the detection pipeline by integrating the heat map and the thesholding of the heat map over a series of video frames. The implementatoinal detail of this can be found in the `VehicleDetection` 
 
 
 
@@ -192,5 +192,5 @@ The vehicle detection pipeline can then be applied to video data. This allows in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NDY2NDAyXX0=
+eyJoaXN0b3J5IjpbMTEwMDM3MjIzMl19
 -->
