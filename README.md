@@ -181,6 +181,8 @@ The bounding rectangle of each of the heat signatures can be computed using the 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg1NDYzMjhdfQ==
+eyJoaXN0b3J5IjpbLTUxMzYyOTI0NF19
 -->
